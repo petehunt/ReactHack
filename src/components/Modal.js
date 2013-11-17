@@ -8,7 +8,7 @@ var Modal = React.createClass({
     if (this.props.actionButton) {
       actionButton = (
         <button
-          class="btn btn-primary"
+          className="btn btn-primary"
           onClick={this.props.onAction}>
           {this.props.actionButton}
         </button>
@@ -16,16 +16,16 @@ var Modal = React.createClass({
     }
 
     return this.transferPropsTo(
-      <div class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-header">
-          <button type="button" class="close" onClick={this.props.onRequestClose}>×</button>
+      <div className="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div className="modal-header">
+          <button type="button" className="close" onClick={this.props.onRequestClose}>×</button>
           <h3>{this.props.title}</h3>
         </div>
-        <div class="modal-body">
+        <div className="modal-body">
           {this.props.children}
         </div>
-        <div class="modal-footer">
-          <button class="btn" onClick={this.props.onRequestClose}>Close</button>
+        <div className="modal-footer">
+          <button className="btn" onClick={this.props.onRequestClose}>Close</button>
           {actionButton}
         </div>
       </div>

@@ -81,7 +81,7 @@ var ContentBlock = React.createClass({
       return (
         <div>
           <Button href={'#/pages/' + this.props.name + '/edit'}>Edit</Button>
-          <Button class="btn-danger" onClick={this.handleDelete}>
+          <Button className="btn-danger" onClick={this.handleDelete}>
             Delete
           </Button>
           <Markdown>{this.state.content.get('content') || ''}</Markdown>
@@ -102,7 +102,7 @@ var ContentBlock = React.createClass({
 
     return (
       <div>
-        <Button onClick={this.handleSave} class="btn-primary">
+        <Button onClick={this.handleSave} className="btn-primary">
           Save
         </Button>
         <Button href={'#/pages/' + this.props.name}>Cancel</Button>
