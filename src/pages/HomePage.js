@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-var React = require('React');
+var React = require('react');
 var ReactHack = require('ReactHack');
 
 var Button = require('../components/Button');

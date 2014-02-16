@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-var React = require('React');
+var React = require('react');
 
 var Content = require('../data/Content');
 var ContentBlock = require('../components/ContentBlock');

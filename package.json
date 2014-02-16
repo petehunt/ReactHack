@@ -5,12 +5,12 @@
   "repository": "",
   "dependencies": {
     "parse": "petehunt/parsesdk-isomorphic",
-    "React": "petehunt/react-core",
+    "react": "~0.8",
     "ReactHack": "petehunt/reacthack-core",
     "showdown": "petehunt/showdown"
   },
   "devDependencies": {
-    "jsx-loader": "petehunt/jsx-loader",
+    "jsx-loader": "~0.0.0",
     "webpack": "~0.11.0",
     "url-loader": "~0.5.1",
     "css-loader": "~0.6.2",
