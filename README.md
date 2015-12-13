@@ -1,5 +1,7 @@
 # React Hackathon toolkit
 
+![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
+
 Build apps quickly using [React](http://facebook.github.io/react), [Bootstrap](http://getbootstrap.com/), [Parse / Backbone](http://parse.com/) and [webpack](http://webpack.github.io/) (formerly [Browserify](http://browserify.org/)).
 
 ## What is this?
